@@ -1,0 +1,19 @@
+.chartContainer {
+  padding: 2rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+  border-radius: 0.75rem;
+}
+
+@media screen and (min-width: 1170px) {
+  .chartContainer {
+    width: 30rem;
+    margin-top: 1rem;
+    flex: 1;
+  }
+}
+
+.chartTitle {
+  text-align: center;
+  margin-bottom: 1rem;
+}

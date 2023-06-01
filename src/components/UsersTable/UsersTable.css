@@ -1,0 +1,18 @@
+.userTableContainer {
+  margin-top: 1.5rem;
+  height: 40vh;
+}
+
+@media screen and (min-width: 1170px) {
+  .userTableContainer {
+    margin-top: 1rem;
+    flex: 1;
+  }
+}
+
+.editDeleteBtnContainer {
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
